@@ -1,0 +1,706 @@
+
+
+@media only screen and (max-width: 1200px){
+
+   
+    .topbar-section .topbar-parents .topbar ul li a {
+        
+     
+        margin: 0 40px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+/* -----topbar-----  */
+
+    .topbar-section .topbar-parents .topbar ul li a {
+        
+        font-size: 16px;
+        margin: 0 35px;
+    }
+
+
+    /* -----eat ------ */
+    .eat-sec .eat-parents .context h1 {
+        font-size: 40px;
+       
+    }
+
+    .eat-sec .eat-parents .context h3 {
+        font-size: 15px;
+    }
+    
+
+    /* -----book table----- */
+
+    .book-table-sec .form-table {
+       
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .book-table-sec .form-table .button {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+
+
+
+    .book-table-sec .form-table button {
+       
+      
+        height: 70%;
+        
+    }
+
+
+
+    /* -----food categories------- */
+
+    .food-categories-sec .categories-3 {
+       
+        column-gap: 50px;
+    }
+
+
+
+    /* -------customers--------- */
+    .customers-sec .customers-parents {
+     
+        column-gap: 30px;
+        row-gap: 30px;
+        
+    }
+
+    .customers-sec .cust-1 {
+        
+        column-gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+       
+    }
+    .customers-sec .cust-2 {
+        
+        column-gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .customers-sec .cust-3 {
+        
+        column-gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+       
+    }
+
+    .customers-sec img {
+    width: auto;
+}
+
+
+/* -------footer-------- */
+
+.footer-sec .sign {
+    text-align:left;
+}
+
+.footer-sec h1 {
+  
+    font-size: 30px;
+   
+}
+
+.footer-sec .sign .follow h3 {
+ 
+    font-size: 12px;
+}
+
+.footer-sec .sign .follow h3 {
+    margin-right: 0px;
+}
+.footer-sec  ul li {
+   
+    font-size:16px;
+ 
+
+
+}
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+    /* -------topbar----- */
+    .topbar-section .topbar-parents .topbar ul li a {
+        
+        margin: 0 20px;
+    }
+
+    /* ----eat--- */
+
+    .eat-sec .eat-parents .context h1 {
+        font-size: 35px;
+       
+    }
+
+
+    .eat-sec .eat-parents .context h3 {
+        font-size: 16px;
+    }
+
+  
+
+    .eat-sec .eat-parents .context button {
+        margin: 30px 15px 0 0;
+        
+        font-size: 14px;
+    }
+
+
+
+    /* =------booking table----- */
+
+
+    .book-table-sec .form-table {
+       
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .book-table-sec .form-table .button {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+
+
+       /* --------food categories-------- */
+
+       .food-categories-sec .title h4 {
+       
+        font-size: 24px;
+        
+       
+    }
+
+    .food-categories-sec .title h1 {
+        font-size: 40px;
+       
+    }
+
+
+
+    .food-categories-sec .categories-3 {
+
+        justify-items: center;
+       
+        column-gap: 30px;
+        grid-template-areas:'meat meat meat fish fish fish'
+        'drinks drinks  drinks drinks drinks drinks';
+    }
+
+
+    .food-categories-sec .categories-3 .drinks {
+      
+        width: 50%;
+        margin-top: 30px;
+    }
+
+
+    
+    /* --------chef------ */
+
+
+    .chef-section .text h4 {
+        font-size: 24px;
+        
+    }
+
+    .chef-section .text h1 {
+        font-size: 36px;
+        
+    }
+
+    .chef-section .chef-parents {
+        
+        padding: 30px;
+        
+    }
+
+    
+    /* -------customers--------- */
+    .customers-sec .customers-parents {
+     
+        column-gap: 18px;
+        row-gap: 18px;
+        
+    }
+
+
+    /* ------footer-------- */
+
+
+    .footer-sec .footer-parents {
+   
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-sec .sign .follow {
+    justify-content: left;
+ 
+}
+
+
+
+
+    
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 576px){
+    
+    /* --------topbar----- */
+
+
+
+
+    .topbar-section .topbar-parents {
+        
+        grid-template-columns: 1fr 3fr 1fr;
+       
+    }
+
+    .topbar-section .topbar-parents .topbar ul{
+        display: none;
+    }
+    .topbar-section .topbar-parents .topbar img{
+        visibility: visible;
+
+    }
+
+    .topbar-section .topbar-parents .logo img {
+     display: none;
+    }
+
+    .topbar-section .topbar-parents .logo i {
+      
+       visibility:visible;
+    }
+
+    
+
+    .topbar-section .topbar-parents .logo i:hover .homebar {
+        visibility: visible;
+        opacity: 1;
+        /* transform: translateY(16px); */
+        transform: translateX(13px);
+        top: 0px;
+        width: 60%;
+    }
+    .topbar-section .topbar-parents .sign {
+        padding: 0px 14px;
+        text-align: center;
+    }
+
+
+    /* ---------eat---------- */
+    .eat-sec .eat-parents .context h1 {
+        font-size: 35px;
+       
+    }
+
+
+    .eat-sec .eat-parents {
+   
+    grid-template-columns: 1fr;
+}
+
+
+
+    
+    /*-------book table------  */
+
+
+    
+    .book-table-sec .form-table {
+       
+        grid-template-columns: 1fr;
+    }
+
+
+    .book-table-sec .form-table .button {
+        text-align: center;
+        
+    }
+
+    .book-table-sec {
+  
+    padding-bottom: 50px;
+
+   padding-top: 20px;
+}
+.book-table-sec .form-table button {
+   
+    font-size: 14px;
+}
+
+
+
+    /* --------food categories-------- */
+
+    .food-categories-sec .title h4 {
+       
+        font-size: 20px;
+        
+       
+    }
+
+    .food-categories-sec .title h1 {
+        font-size: 35px;
+       
+    }
+
+   
+
+    .food-categories-sec .categories-3 {
+       
+        column-gap: 10px;
+    }
+
+    .food-categories-sec .categories-3 {
+
+       
+        grid-template-areas:'meat meat meat  meat  meat  meat'
+         'fish fish fish fish fish  fish'
+        'drinks drinks  drinks drinks drinks drinks';
+    }
+
+    .food-categories-sec .categories-3 .meat {
+        width: 60%;
+        margin-top: 30px;
+       
+    }
+
+    .food-categories-sec .categories-3 .fish {
+        width: 60%;
+        margin-top: 30px;
+       
+    }
+
+
+    .food-categories-sec .categories-3 .drinks {
+        width: 60%;
+        margin-top: 30px;
+       
+    }
+
+    .food-categories-sec .categories-3  h2 {
+        font-size: 35px;
+       
+    }
+    .food-categories-sec .categories-3 button {
+        
+        font-size: 14px;
+    }
+
+
+    /* -----------prtotocol------------------ */
+
+    .protocol-section .about h3 {
+        font-size: 24px;
+        
+    }
+
+    .protocol-section .about h1 {
+        font-size: 40px;
+      
+    }
+
+    .protocol-section .about button {
+    
+        font-size: 14px;
+    }
+
+/* ---------------restaurants---------------- */
+    .restaurants-sec .story h5 {
+        font-size: 24px;
+       
+    }
+
+    .restaurants-sec .story h1 {
+        font-size: 40px;
+      
+    }
+
+    .restaurants-sec .restaurant-parents {
+        
+        grid-template-columns: 1fr;
+       
+    }
+
+
+    .restaurants-sec .story button {
+      
+        font-size: 14px;
+    }
+
+/* -------------ingredients------------- */
+
+    .ingredients-sec .text h4 {
+        font-size: 24px;
+       
+    }
+
+    .ingredients-sec .text h1 {
+        font-size: 40px;
+       
+    }
+
+
+    .ingredients-sec .ingredients-parents {
+        
+        grid-template-columns: 1fr;
+       
+    }
+
+
+    .ingredients-sec .text button {
+      
+        font-size: 14px;
+    }
+
+
+
+    /* --------chef------ */
+
+    .chef-section .chef-parents {
+        
+      grid-template-columns: 1fr;
+        
+    }
+
+    .chef-section .text button {
+        
+        font-size: 16px;
+    }
+
+    /* ---------customers------------ */
+
+
+    .customers-sec .customers-parents {
+       
+        grid-template-areas: 'rakib rakib rakib  rakib rakib rakib'
+        'right right right right right right'
+     'footer footer footer footer footer footer';
+      
+    }
+
+    .customers-sec .cust-3 {
+     
+        width: auto;
+    }
+
+
+    /* ----------subscirbe-------------- */
+
+
+    .subscirbe-sec h3 {
+        font-size: 24px;
+       
+    }
+
+    .subscirbe-sec h1 {
+        font-size: 40px;
+       
+    }
+
+    .subscirbe-sec #send {
+
+        font-size: 13px;
+
+    }
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+
+    /* -------topbar--------- */
+
+    .topbar-section .topbar-parents {
+        
+        grid-template-columns: 1fr 2fr 1fr;
+       
+    }
+
+
+    /* ------button-------- */
+   .button{
+
+    font-size: 14px;
+}
+
+.topbar-section .topbar-parents .sign {
+    padding: 0 17px;
+     
+     
+  }
+
+
+
+
+
+    /* ---eat---- */
+
+    .eat-sec .eat-parents {
+       
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+
+
+    
+    /* -----------prtotocol------------------ */
+
+    .protocol-section .about h3 {
+        font-size: 20px;
+        
+    }
+
+    .protocol-section .about h1 {
+        font-size: 35px;
+      
+    }
+
+    /* ---------------restaurants---------------- */
+    .restaurants-sec .story h5 {
+        font-size: 20px;
+       
+    }
+
+    .restaurants-sec .story h1 {
+        font-size: 35px;
+      
+    }
+
+
+    
+/* -------------ingredients------------- */
+
+.ingredients-sec .text h4 {
+    font-size: 20px;
+   
+}
+
+.ingredients-sec .text h1 {
+    font-size: 35px;
+   
+}
+
+
+
+    /* ----------subscirbe-------------- */
+
+
+    .subscirbe-sec h3 {
+        font-size: 20px;
+       
+    }
+
+    .subscirbe-sec h1 {
+        font-size: 35px;
+       
+    }
+
+    /* --------footer-------------- */
+
+    .footer-sec .footer-parents {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+
+    /* -----topbar------ */
+
+    .topbar-section .topbar-parents .sign {
+        padding: 0 12px;
+    }  
+
+    .topbar-section .topbar-parents .logo i:hover .homebar {
+      
+        transform: translateX(7px);
+        
+       
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+
+
+    /* -------topbar-------------- */
+
+    .topbar-section .topbar-parents .sign {
+        padding: 0 10px;
+    }
+
+    
+    /* --------food categories-------- */
+
+    .food-categories-sec .title h4 {
+       
+        font-size: 18px;
+        
+       
+    }
+
+    .food-categories-sec .title h1 {
+        font-size: 30px;
+       
+    }
+
+
+}

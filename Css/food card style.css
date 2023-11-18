@@ -1,0 +1,975 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  
+
+  
+
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+/* -------------------topbar--------------- */
+ 
+    .topbar-section {
+        background-color: #ebe3cd;
+        padding: 10px 0 100px;
+        
+    }
+
+
+    .topbar-section .topbar-parents {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        background-color: #12202f;
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        margin-top: 15px;
+        padding: 14px 0;
+
+        width: 95%;
+    }
+
+    .topbar-section .topbar-parents .logo img {
+        width: 60px;
+        position: absolute;
+        top: -22px;
+      
+    }
+
+
+    .topbar-section .topbar-parents .topbar img {
+        width: 60px;
+        position: absolute;
+        top: -22px;
+       visibility: hidden;
+       left: 43%;
+      
+    }
+
+    .topbar-section .topbar-parents .logo i {
+        color: #ffffff;
+        visibility: hidden;
+       
+    }
+
+   
+
+
+   
+
+    /* ------homebar-------- */
+    .topbar-section .topbar-parents .homebar {
+        background-color: #12202f;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 0px 0px 10px 0px;
+        transition: 1.5s;
+        transform: translateY(0);
+        left: -9%;
+    }
+
+    
+    /* .topbar-section .topbar-parents .homebar ul:hover{
+        
+    } */
+
+
+
+    .topbar-section .topbar-parents .homebar ul li {
+        list-style: none;
+        margin: 20px 0;
+        padding: 20px 50px;
+    }
+    
+    
+    
+    
+    .topbar-section .topbar-parents .homebar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+        margin:  0 34px;
+    
+    }
+    
+    
+    .topbar-section .topbar-parents .homebar ul li a:hover {
+        
+      
+        
+        background-color: #ffffff;
+        color: #12202f;
+        padding: 05px 24px;
+        margin: 0 10px;
+        border-radius: 10px;
+        
+    }
+
+    /* -----homebar end------- */
+    
+
+
+
+
+
+
+.topbar-section .topbar-parents .topbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topbar-section .topbar-parents .topbar ul li {
+    list-style: none;
+   
+}
+
+
+
+
+.topbar-section .topbar-parents .topbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 54px;
+
+}
+
+
+.topbar-section .topbar-parents .topbar ul li a:hover {
+    
+  
+    
+    background-color: #ffffff;
+    color: #12202f;
+    padding: 05px 14px;
+    margin: 0 40px;
+    border-radius: 10px;
+    
+}
+
+
+
+.topbar-section .topbar-parents .sign{
+
+    /* padding:0 50px; */
+
+    color: #5fa58d;
+}
+
+.topbar-section .topbar-parents .sign:hover{
+    color: #ffffff;
+}
+
+
+
+/* -------------------Eat----------------------- */
+
+.eat-sec{
+
+  background-color: #ebe3cd;
+}
+
+.eat-sec .eat-parents {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.eat-sec .eat-parents .context h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+.eat-sec .eat-parents .context h3 {
+    font-size: 18px;
+}
+
+
+.eat-sec .eat-parents .context p {
+    font-size: 12px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.eat-sec .eat-parents .context button {
+    margin: 30px 30px 0 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+.eat-sec .eat-parents .context button:hover{
+   color: #ffffff;
+   background-color: #df581e;
+  
+  
+}
+
+
+
+.eat-sec .eat-parents .img img{
+    width: 100%;
+
+    
+
+}
+
+
+/* ------------book table--------------- */
+
+
+.book-table-sec{
+    background-color: #ebe3cd;
+    padding-bottom: 50px;
+    
+  
+}
+
+.book-table-sec h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.book-table-sec label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.book-table-sec input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.book-table-sec .form-table {
+    background-color: #ffffff;
+    padding: 10px 30px 40px 30px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr;
+}
+.book-table-sec .form-table form{
+
+    padding: 20px;
+} 
+
+.book-table-sec #date{
+    height: 100%;
+    /* width: 60%; */
+    width: auto;
+    text-align: center; 
+    background-color: #ebe3cd;
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: solid;
+}
+
+
+.book-table-sec #time {
+    height: 100%;
+    /* width: 55%; */
+    width: auto;
+    text-align: center; 
+    background-color: #ebe3cd;
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: solid;
+}
+
+
+.book-table-sec #mail {
+    height: 100%;
+    /* width: 90%; */
+    width: auto;
+    text-align: center; 
+    background-color: #ebe3cd;
+    border-radius: 20px;
+    font-size: 16px;
+    border-style: solid;
+}
+
+
+.book-table-sec .form-table .button{
+    text-align: end;
+}
+
+.book-table-sec .form-table button {
+    /* width: 60%; */
+    width: auto;
+    height: 60%;
+    background-color: #d3bb7a;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 0 15px;
+}
+
+.book-table-sec .form-table button:hover{
+    background-color: #5fa58d;
+    color: #ffffff;
+}
+
+
+
+
+/* -------food-categories-sec--------- */
+
+
+.food-categories-sec{
+    background-color: #ebe3cd;
+    padding: 50px 0;
+}
+
+
+.food-categories-sec .food-categories-parents .title{
+    text-align: center;
+
+}
+
+.food-categories-sec .title h4{
+    color: #eaa73b;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+}
+
+.food-categories-sec .title h1{
+
+    font-size: 50px;
+    font-weight: bold;
+  margin-bottom: 30px;
+
+}
+
+.food-categories-sec .categories-3 {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* background-color: white; */
+    column-gap: 90px;
+    grid-template-areas: 'meat meat fish fish drinks drinks';
+}
+
+
+.food-categories-sec .categories-3 .meat {
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding:50px 30px 20px  30px;
+
+    grid-area: meat;
+}
+
+
+
+.food-categories-sec .categories-3 .fish{
+
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding:50px 30px 20px  30px;
+
+    grid-area: fish;
+}
+
+
+
+.food-categories-sec .categories-3 .drinks{
+
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding:50px 30px 20px 30px;
+
+    grid-area: drinks;
+}
+
+
+
+.food-categories-sec .categories-3  img{
+   
+    margin-bottom: 20px;
+    /* width: 100%; */
+
+}
+
+
+
+
+.food-categories-sec .categories-3  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: auto;
+    
+}
+
+
+.food-categories-sec .categories-3 p{
+    margin: 30px 0;
+
+}
+
+
+.food-categories-sec .categories-3 button{
+
+    margin: 30px 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+
+}
+
+
+
+.food-categories-sec .categories-3 button:hover{
+
+    background-color: #df581e;
+    color: #ffffff;
+   
+  
+}
+
+
+/* ------------covid-19------------- */
+
+.protocol-section{
+
+    background-color: #ebe3cd;
+    padding: 50px 0;
+}
+
+.protocol-section .protocol-parents{
+
+}
+
+.protocol-section .about{
+    text-align: center;
+
+}
+
+
+.protocol-section .about h3{
+    font-size: 28px;
+    color: #6bb99c;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.protocol-section .about h1{
+    font-size: 50px;
+    font-family: auto;
+    padding: 10px 0;
+    font-weight: bold;
+
+
+}
+
+.protocol-section .about button{
+
+    margin: 30px 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+
+}
+
+.protocol-section .about button:hover {
+    background-color: #df581e;
+    color: #ffffff;
+}
+
+
+
+.protocol-section .img {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: end;
+}
+
+
+.protocol-section .img img{
+    width: 100%;
+
+}
+
+/* -------------------story---------------------- */
+
+
+.restaurants-sec{
+    background-color: #ebe3cd;
+    padding: 50px 0;
+}
+
+
+
+
+.restaurants-sec .restaurant-parents {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+
+.restaurants-sec .story h5{
+    font-size: 28px;
+    color:#eaa73b;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.restaurants-sec .story h1{
+    font-size: 50px;
+    font-family: auto;
+
+    
+}
+
+
+
+
+.restaurants-sec .story button{
+
+    margin: 30px 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+    
+}
+
+.restaurants-sec .story button:hover{
+    
+    color: #ffffff;
+    background-color: #df581e;
+}
+
+
+  
+
+
+.restaurants-sec .restaurants{
+    text-align: center;
+
+}
+
+.restaurants-sec .restaurants img{
+    width: 100%;
+
+}
+
+/* --------------ingredients-------------- */
+
+
+
+.ingredients-sec{
+    background-color: #ebe3cd;
+    padding: 50px 0;
+
+}
+
+.ingredients-sec .ingredients-parents {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.ingredients-sec .ingredients-parents img{
+    width: 100%;
+}
+
+
+
+
+.ingredients-sec .text h4{
+    font-size: 28px;
+    color:#eaa73b;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+
+}
+
+.ingredients-sec .text h1{
+
+    font-size: 50px;
+    font-family: auto;
+
+}
+
+
+
+
+.ingredients-sec .text button{
+
+    margin: 30px 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+
+}
+
+
+.ingredients-sec .text button:hover{
+    color: #ffffff;
+    background-color: #5fa58d;
+}
+
+/*  --------chefffff-------- */
+
+
+
+.chef-section{
+
+    padding: 50px 0;
+    background-color:#ebe3cd ;
+}
+
+.chef-section .chef-parents {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.chef-section .text{
+
+
+
+}
+.chef-section .text h4{
+
+    font-size: 28px;
+    color:#eaa73b;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+
+}
+
+.chef-section .text h1{
+    font-size: 50px;
+    font-family: auto;
+
+
+}
+
+.chef-section .text button {
+    margin: 30px 0;
+    border: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.chef-section .text button:hover{
+    background-color:#df581e;
+    color: #ffffff;
+}
+
+
+.chef-section .img img{
+    width: 100%;
+    
+}
+
+
+
+/* ----------------customers--------------- */
+
+
+
+.customers-sec{
+    padding: 50px 0;
+    background-color:#ebe3cd ;
+
+}
+
+.customers-sec .customers-parents{
+    display: grid;
+    grid-template-areas: 
+    'rakib rakib rakib right right right'
+    'footer footer footer footer footer footer';
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-items: center;
+}
+
+.customers-sec .cust-1{
+    grid-area: rakib;
+   column-gap: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+
+.customers-sec .cust-2{
+    grid-area: right;
+    column-gap: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 30px;
+    align-items: center;
+
+
+}
+
+.customers-sec .cust-3{
+    grid-area: footer;
+    column-gap: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 30px;
+    align-items: center;
+    /* margin: 0 300px; */
+    width: 45%;
+
+
+
+}
+
+.customers-sec img{
+    width: 100%;
+
+}
+
+.customers-sec h2{
+     font-size: 28px;
+     
+
+}
+
+.customers-sec p{
+    margin: 10px 0;
+
+}
+
+
+
+/* ----------------subscirbe--------------- */
+
+
+.subscirbe-sec{
+    padding: 50px 0;
+    background-color:#ebe3cd ;
+
+}
+
+
+
+.subscirbe-sec .sub-parents{
+  
+    text-align: center;
+
+}
+
+
+
+.subscirbe-sec h3{
+    font-size: 28px;
+    color:#eaa73b;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+
+.subscirbe-sec h1{
+    font-size: 50px;
+    font-family: auto;
+    padding-bottom: 30px;
+
+}
+
+
+
+.subscirbe-sec form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 40px;
+}
+
+
+.subscirbe-sec #name {
+    height: 45px;
+    width: 45%;
+    padding:0 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    background-color: #ccc1a3;
+}
+
+.subscirbe-sec #mail{
+
+    height: 45px;
+    width: 45%;
+    padding:0 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    background-color: #ccc1a3;
+
+
+}
+
+.subscirbe-sec #message{
+    height:100px;
+    width: 45%;
+    padding:30px;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:800;
+    background-color: #ccc1a3;
+  
+
+
+}
+
+
+.subscirbe-sec #send {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5fa58d;
+}
+
+
+.subscirbe-sec #send:hover{
+    background-color:#df581e;
+    color: #ffffff;
+    
+}
+
+
+/* -----------footer----------- */
+
+
+.footer-sec{
+    padding: 50px 0 ;
+    background-color: #fa9d30;
+
+}
+
+.footer-sec .footer-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.footer-sec h1{
+    color: #ffffff;
+    font-size: 41px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.footer-sec ul{
+
+}
+
+
+.footer-sec  ul li {
+    list-style: none;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+.footer-sec .sign{
+    text-align: end;
+
+}
+
+
+.footer-sec .sign form{
+    margin: 20px 0;
+
+}
+
+.footer-sec .sign form input {
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    background: none;
+    border-style: double;
+    border-color: white;
+}
+
+.footer-sec .sign .follow {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.footer-sec .sign .follow h3{
+
+    margin-right: 10px;
+}
+
+.footer-sec .sign .follow ul{
+    display: flex;
+  
+}
+
+.footer-sec .sign .follow ul i {
+    background: white;
+    border-radius:18px;
+    padding: 10px;
+    margin: 15px;
+    color: #12202f;
+}
